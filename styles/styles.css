@@ -10,6 +10,7 @@ html {
 }
 
 .logo {
+    
     background-color: #F8765E;
     font-size: 26px;
     color: #ffffff;
@@ -31,6 +32,7 @@ li {
     padding: 20px;
 }
 
+
 /*section 1*/ 
 
 .section1 {
@@ -50,10 +52,15 @@ h1 {
     margin-left: 8%;
     color: #ffffff;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 32px;
     width: 40%;
 }
 
 .mockup-image {
+    position: relative;
+    right: -20px
+}
 
+.subscribe-action {
+    margin-left: 8%
 }
