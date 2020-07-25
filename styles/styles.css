@@ -1,8 +1,33 @@
 html {
     margin: 0;
     font-size: 1em;
+    font-family: "Roboto", sans-serif ;
 }
 
-p {
-    font-family: "Roboto", sans-serif;
+/*logo y barra de navegación*/ 
+.header{
+    background-color: #F8765E;
+}
+
+.logo {
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.barra-navegacion {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*section 1*/ 
+
+.section1 {
+    background-color: #F8765E;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+    color: #ffffff;
 }
