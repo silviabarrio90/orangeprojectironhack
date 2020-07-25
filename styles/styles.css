@@ -10,12 +10,14 @@ html {
 }
 
 .logo {
+    background-color: #F8765E;
     font-size: 26px;
     color: #ffffff;
     text-transform: uppercase;
 }
 
 .barra-navegacion {
+    background-color: #F8765E;
     font-size: 16px;
     color: #ffffff;
 }
@@ -28,6 +30,8 @@ html {
 
 h1 {
     font-size: 48px;
-    font-weight: 200;
+    line-height: 60px;
+    font-weight: 600;
     color: #ffffff;
+    width: 40%;
 }
