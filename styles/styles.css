@@ -57,8 +57,7 @@ h1 {
 }
 
 .mockup-image {
-    position: relative;
-    right: -20px
+    float: right;
 }
 
 .subscribe-action {
