@@ -1,3 +1,8 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
 html {
     margin: 0;
     font-size: 1em;
@@ -7,6 +12,7 @@ html {
 /*logo y barra de navegación*/ 
 .header{
     background-color: #F8765E;
+    display: flex;
 }
 
 .logo {
@@ -19,6 +25,7 @@ html {
 ul {
     list-style-type: none;
     background-color: #F8765E;
+    float: right;
 }
 
 li {
@@ -64,6 +71,39 @@ h1 {
 
 /*section2*/
 
+.caja {
+    background-color: red;
+    width: 80%;
+    border-radius: 1em;
+    box-shadow: 4px 6px 24px -4px rgba(130,130,130,1);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/* generar border caja: https://www.cssmatic.com/box-shadow*/
+
+.cajas-interiores{
+    width: 33%;
+    background-color: azure;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja-imagen {
+    text-align: center;
+}
+
+.title-subrayado {
+    border-bottom: 1px solid black;
+    width: 30%;
+    padding-top: 10px;
+}
+
+.text-caja {
+    line-height: 32px;
+}
 
 
 /*section3*/
@@ -73,5 +113,10 @@ h1 {
 }
 
 h2 {
-    color: #F8765E
+    color: #F8765E;
 }
+
+.why-better-description-title {
+    position: center;
+}
+
