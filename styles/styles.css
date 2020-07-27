@@ -10,26 +10,23 @@ html {
 }
 
 .logo {
-    
     background-color: #F8765E;
     font-size: 26px;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.barra-navegacion {
-    background-color: #F8765E;
-    font-size: 16px;
-    color: #ffffff;
-}
-
 ul {
     list-style-type: none;
+    background-color: #F8765E;
 }
 
 li {
     display: inline-block;
     padding: 20px;
+    background-color: #F8765E;
+    font-size: 16px;
+    color: #ffffff
 }
 
 
@@ -61,5 +58,20 @@ h1 {
 }
 
 .subscribe-action {
-    margin-left: 8%
+    margin-left: 8%;
+}
+
+
+/*section2*/
+
+
+
+/*section3*/
+
+.section3 {
+    float: right;
+}
+
+h2 {
+    color: #F8765E
 }
