@@ -62,6 +62,7 @@ li {
 
 .section1 {
     background-color: #F8765E;
+    display: flex;
 }
 
 h1 {
@@ -110,6 +111,7 @@ h1 {
     background-color: white;
     padding: 10px;
     margin: 5px;
+    flex: 0 1 30%;
 }
 
 .caja-imagen {
