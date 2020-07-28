@@ -72,11 +72,11 @@ h1 {
 /*section2*/
 
 .caja {
-    background-color: red;
+    background-color: white;
     width: 80%;
     border-radius: 1em;
     box-shadow: 4px 6px 24px -4px rgba(130,130,130,1);
-    padding: 10px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -86,7 +86,7 @@ h1 {
 
 .cajas-interiores{
     width: 33%;
-    background-color: azure;
+    background-color: white;
     padding: 10px;
     margin: 5px;
 }
@@ -96,13 +96,15 @@ h1 {
 }
 
 .title-subrayado {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid #F8765E;
     width: 30%;
     padding-top: 10px;
 }
 
 .text-caja {
     line-height: 32px;
+    color: #5B6C94;
+    font-size: 16px;
 }
 
 
