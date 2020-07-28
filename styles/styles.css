@@ -10,6 +10,18 @@ html {
     font-family: "Roboto", sans-serif ;
 }
 
+/*botones y placeholder*/
+
+input {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
 /*logo y barra de navegación*/ 
 .header{
     background-color: #F8765E;
