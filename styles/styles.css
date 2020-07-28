@@ -150,11 +150,15 @@ h3 {
     font-size: 34px;
 }
 
-.caja2-arbol {
+.caja2-arbol2 {
     text-align: right;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     margin: 5px;
+}
+
+.arbol {
+    width: 80%;
 }
 
 
@@ -189,4 +193,54 @@ h3 {
 
 .lista4 {
     text-align: center; 
+}
+
+.boxgeneral {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    position: relative;
+}
+
+.positionBox{
+    position: relative;
+}
+.box{
+    position: absolute;
+}
+.box1 {
+    width: 30%;
+    background-color: blue;
+}
+.capa1 {
+    z-index: 1;
+}
+
+.capa2{
+    z-index: 2;
+}
+.box2 {
+    width: 70%;
+    top: 0px;
+    right: 0px;
+    height: 500px;
+    background-color: violet;
+    border-radius: 10px 10px solid;
+}
+
+
+.hola {
+    position: absolute;
+    height: 50px;
+    width: 20%;
+    top: 230px;
+    background-color: lightcyan;
+}
+
+.hola1{
+    left: 20%;
+}
+
+.hola2{
+    left: 60%;
 }
