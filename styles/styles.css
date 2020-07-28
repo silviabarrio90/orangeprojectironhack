@@ -132,9 +132,9 @@ h1 {
 /*section3*/
 
 .caja2 {
+    padding-top: 50px;
     width: 80%;
     border-radius: 1em;
-    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -164,7 +164,58 @@ h3 {
 
 /*section4*/
 
+.boxgeneral {
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
 
+.positionBox{
+    position: relative;
+}
+.box{
+    position: absolute;
+}
+.box1 {
+    width: 80%;
+
+}
+.capa1 {
+    z-index: 1;
+}
+
+.capa2{
+    z-index: 2;
+}
+.box2 {
+    width: 70%;
+    top: 0px;
+    right: 0px;
+    height: 500px;
+    background-color:#F8765E;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.hola {
+    position: absolute;
+    height: 50px;
+    width: 20%;
+    top: 230px;;
+}
+
+.hola1{
+    left: 20%;
+    background-color: #9BDBE7;
+    border-radius: 20px;
+}
+
+.hola2{
+    left: 60%;
+    background-color: white;
+    border-radius: 20px;
+}
 
 
 /*section5*/
@@ -195,52 +246,3 @@ h3 {
     text-align: center; 
 }
 
-.boxgeneral {
-    width: 100%;
-    height: 500px;
-    background-color: red;
-    position: relative;
-}
-
-.positionBox{
-    position: relative;
-}
-.box{
-    position: absolute;
-}
-.box1 {
-    width: 30%;
-    background-color: blue;
-}
-.capa1 {
-    z-index: 1;
-}
-
-.capa2{
-    z-index: 2;
-}
-.box2 {
-    width: 70%;
-    top: 0px;
-    right: 0px;
-    height: 500px;
-    background-color: violet;
-    border-radius: 10px 10px solid;
-}
-
-
-.hola {
-    position: absolute;
-    height: 50px;
-    width: 20%;
-    top: 230px;
-    background-color: lightcyan;
-}
-
-.hola1{
-    left: 20%;
-}
-
-.hola2{
-    left: 60%;
-}
