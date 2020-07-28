@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding: 0;
+    background-color: #FFFCFB;
 }
 
 html {
@@ -110,15 +111,51 @@ h1 {
 
 /*section3*/
 
-.section3 {
-    float: right;
+.caja2 {
+    width: 80%;
+    border-radius: 1em;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 h2 {
     color: #F8765E;
+    font-size: 48px;
 }
 
-.why-better-description-title {
-    position: center;
+h3 {
+    color: #031D5B;
+    font-size: 34px;
+}
+
+.caja2-arbol {
+    text-align: right;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*section4*/
+
+
+
+
+/*section5*/
+
+.caja3 {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.caja3-h4 {
+    color: #CDCDCD;
+    font-size: 34px
 }
 
