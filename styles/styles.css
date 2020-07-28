@@ -17,8 +17,11 @@ input {
     font-size: 20px;
     font-weight: 600;
     padding: 20px;
-    border-radius: 10px;
-    
+    border-radius: 20px;
+}
+
+button {
+    background-color: red;   
 }
 
 
@@ -29,20 +32,25 @@ input {
 }
 
 .logo {
+    margin-left: 8%;
     background-color: #F8765E;
     font-size: 26px;
     color: #ffffff;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #F8765E;
-    float: right;
 }
 
 li {
     display: inline-block;
+    float: right;
     padding: 20px;
     background-color: #F8765E;
     font-size: 16px;
@@ -171,3 +179,14 @@ h3 {
     font-size: 34px
 }
 
+/*section6*/
+
+.caja4 {
+    text-align: center; 
+    background-color: #F8765E;
+    color: white;
+}
+
+.lista4 {
+    text-align: center; 
+}
