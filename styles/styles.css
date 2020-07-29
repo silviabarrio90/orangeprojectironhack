@@ -17,11 +17,14 @@ input {
     font-size: 20px;
     font-weight: 600;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 1em;
+    box-shadow: 2px 2px 8px -6px rgba(0,0,0,0.75);
+    border:none;
 }
 
-button {
-    background-color: red;   
+.boton {
+    background-color: #9BDBE7; 
+    color: white;  
 }
 
 
@@ -63,6 +66,7 @@ li {
 .section1 {
     background-color: #F8765E;
     display: flex;
+    height: 520px;
 }
 
 h1 {
@@ -93,6 +97,10 @@ h1 {
 
 /*section2*/
 
+.section2{
+    padding-top:50px;
+}
+
 .caja {
     background-color: white;
     width: 80%;
@@ -102,6 +110,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-flow: row wrap;
 }
 
 /* generar border caja: https://www.cssmatic.com/box-shadow*/
@@ -140,6 +149,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-flow: row;
 }
 
 h2 {
@@ -152,11 +162,16 @@ h3 {
     font-size: 34px;
 }
 
+.caja2-arbol1{
+    flex: 0 1 30%
+}
+
 .caja2-arbol2 {
     text-align: right;
     width: 70%;
     padding: 10px;
     margin: 5px;
+    flex: 0 1 70%;
 }
 
 .arbol {
@@ -183,6 +198,8 @@ h3 {
     width: 80%;
 
 }
+
+
 .capa1 {
     z-index: 1;
 }
@@ -191,49 +208,75 @@ h3 {
     z-index: 2;
 }
 .box2 {
-    width: 70%;
+    width: 60%;
     top: 0px;
     right: 0px;
-    height: 500px;
+    height: 650px;
     background-color:#F8765E;
     border-radius: 20px 0px 0px 20px;
 }
 
-
 .hola {
     position: absolute;
-    height: 50px;
-    width: 20%;
-    top: 230px;;
+    height:350px;
+    width: 50%;
+    top: 150px;;
 }
 
 .hola1{
-    left: 20%;
+    left: 30%;
     background-color: #9BDBE7;
     border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    padding: 50px;
+}
+
+.hola1-text1{
+    color: white;
+    line-height: 36px;
+}
+
+.hola1-text2 {
+    padding-top: 40%;
+    padding-bottom: 20%;
+    color: white; 
 }
 
 .hola2{
     left: 60%;
     background-color: white;
     border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    padding: 50px;
 }
 
+.hola2-text1{
+    color:#7C7C7C;
+    line-height: 36px;
+}
+
+.hola2-text2 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #7C7C7C; 
+}
 
 /*section5*/
 
 .caja3 {
-    text-align: center;
-    width: 50%;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+text-align: center;
+width: 50%;
+padding-top: 190px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
 }
 
 .caja3-h4 {
-    color: #CDCDCD;
-    font-size: 34px
+ color: #CDCDCD;
+font-size: 34px
 }
 
 /*section6*/
