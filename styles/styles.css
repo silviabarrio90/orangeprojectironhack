@@ -34,6 +34,7 @@ input {
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
     background-color: #F8765E; /* change to desired color */
+    /*position:fixed;*/
 }
 .logo {
     display: inline-block;
@@ -51,7 +52,7 @@ input {
 .topnav > a {
     display: inline-block;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 8%;
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;
     float: right;    /* if you want it vertically middle of the navbar */
@@ -87,15 +88,11 @@ h1 {
     flex: 0 1 60%;
 }
 
-.subscribe-action {
-    margin-left: 8%;
-}
-
 
 /*section2*/
 
 .section2{
-    padding-top:50px;
+    padding-top:80px;
 }
 
 .caja {
@@ -104,8 +101,8 @@ h1 {
     border-radius: 1em;
     box-shadow: 4px 6px 24px -4px rgba(130,130,130,1);
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -143,8 +140,8 @@ h1 {
     padding-top: 50px;
     width: 80%;
     border-radius: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-flow: row;
 }
@@ -266,6 +263,7 @@ h3 {
 text-align: center;
 width: 50%;
 padding-top: 190px;
+padding-bottom: 100px;
 margin-left: auto;
 margin-right: auto;
 display: flex;
@@ -276,15 +274,23 @@ display: flex;
 font-size: 34px
 }
 
-/*section6*/
 
-.caja4 {
-    text-align: center; 
-    background-color: #F8765E;
-    color: white;
+
+/*footer*/
+
+.footer {
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        background-color: #F8765E;
+        color: white;
+        text-align: center;
 }
 
-.lista4 {
-    text-align: center; 
+/*
+.footer1{
+    margin:20%;
 }
+*/
 
