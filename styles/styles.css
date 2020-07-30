@@ -28,38 +28,34 @@ input {
 }
 
 
-/*logo y barra de navegación*/ 
-.header{
-    background-color: #F8765E;
-    display: flex;
-}
+/*navbar*/ 
 
+.topnav {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: #F8765E; /* change to desired color */
+}
 .logo {
-    margin-left: 8%;
-    background-color: #F8765E;
-    font-size: 26px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px; 
+    margin-left: 8%; 
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;  
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F8765E;
-}
-
-li {
+.topnav > a {
     display: inline-block;
-    float: right;
-    padding: 20px;
-    background-color: #F8765E;
-    font-size: 16px;
-    color: #ffffff
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;
+    float: right;    /* if you want it vertically middle of the navbar */
 }
-
 
 /*section 1*/ 
 
